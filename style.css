@@ -1,0 +1,263 @@
+/*
+primary color: #A888B5;
+secondary color: #8174A0;
+body backgruond color: #EFB6C8;
+*/
+
+body {
+    background-color: #EFB6C8;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px solid #8174A0;
+}
+.logo img {
+    width: 80px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+nav ul li {
+    margin-right:25px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #A888B5;
+    font-size: larger;
+}
+nav ul li a:hover {
+    color:#8174A0;
+    text-decoration-line: underline;
+    text-underline-position: 8px;
+    text-decoration-color: #FFD2A0;
+}
+#about {
+    background-image: url(./asset/Cheesez.jpg);
+    background-position: right;
+    background-attachment: flex;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 75vh;
+    padding: 40px;
+    background-color: #f0f1f7;
+  }
+  #about h2 {
+    margin-top: 50px;
+    width: 50%;
+    padding-left: 40px;
+  }
+  #about p {
+    width: 50%;
+    padding-left: 40px;
+    line-height: 1.7em;
+  }
+  #product {
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 40px;
+  }
+  
+  
+  #product h2 {
+    text-align: center;
+    color: #344CB7;
+  }
+  
+  
+  .card-product {
+    width: 95%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  #contact {
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    border: 1px solid #FFEB00;
+  }
+  .contact-text {
+    align-items: center;
+    padding-left: 70px;
+    width: 50%;
+  }
+  .contact-text h4 {
+    color: #344CB7;
+  }
+  .contact-text p {
+    font-size: xx-large;
+  }
+  .contact-text button {
+    padding: 8px 35px;
+    background-color: #b5bfea;
+    border: none;
+  }
+  .contact-text button:hover {
+    background-color: #FFEB00;
+    color: #344CB7;
+    box-shadow: 3px 3px 20px #344CB7;
+  }
+  .contact-image {
+    width: 50%;
+  }
+  .contact-image img {
+    width: 60%;
+  }
+  
+  #contact {
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    border: 1px solid #FFEB00;
+  }
+  .contact-text {
+    align-items: center;
+    padding-left: 70px;
+    width: 50%;
+  }
+  .contact-text h4 {
+    color: #344CB7;
+  }
+  .contact-text p {
+    font-size: xx-large;
+  }
+  .contact-text button {
+    padding: 8px 35px;
+    background-color: #b5bfea;
+    border: none;
+  }
+  .contact-text button:hover {
+    background-color: #FFEB00;
+    color: #344CB7;
+    box-shadow: 3px 3px 20px #344CB7;
+  }
+  .contact-image {
+    width: 50%;
+  }
+  .contact-image img {
+    width: 60%;
+  }
+  
+  #contact {
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    border: 1px solid #FFEB00;
+  }
+  .contact-text {
+    align-items: center;
+    padding-left: 70px;
+    width: 50%;
+  }
+  .contact-text h4 {
+    color: #344CB7;
+  }
+  .contact-text p {
+    font-size: xx-large;
+  }
+  .contact-text button {
+    padding: 8px 35px;
+    background-color: #b5bfea;
+    border: none;
+  }
+  .contact-text button:hover {
+    background-color: #FFEB00;
+    color: #344CB7;
+    box-shadow: 3px 3px 20px #344CB7;
+  }
+  .contact-image {
+    width: 50%;
+  }
+  .contact-image img {
+    width: 60%;
+  }
+  
+  #contact {
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    border: 1px solid #FFEB00;
+  }
+  .contact-text {
+    align-items: center;
+    padding-left: 70px;
+    width: 50%;
+  }
+  .contact-text h4 {
+    color: #344CB7;
+  }
+  .contact-text p {
+    font-size: xx-large;
+  }
+  .contact-text button {
+    padding: 8px 35px;
+    background-color: #b5bfea;
+    border: none;
+  }
+  .contact-text button:hover {
+    background-color: #FFEB00;
+    color: #344CB7;
+    box-shadow: 3px 3px 20px #344CB7;
+  }
+  .contact-image {
+    width: 50%;
+  }
+  .contact-image img {
+    width: 60%;
+  }
+  
+footer{
+  text-align: center;
+  background-color: #344CB7;
+  color: burlywood;
+  padding: 25px;
+  font-weight: bold;
+  border-radius: 0 45px 0 60px;
+
+}
+  
+       
+  
+  
